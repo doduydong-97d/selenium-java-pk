@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="TestNG">
+
+	<!--	<groups>-->
+	<!--		<run>-->
+	<!--			<include name="user" />-->
+	<!--			<exclude name="admin" />-->
+	<!--		</run>-->
+	<!--	</groups>-->
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="test14.T_07_Parameter" />
+		</classes>
+	</test>
+
+	<test name="EdgeTest">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="test14.T_07_Parameter" />
+		</classes>
+	</test>
+
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="test14.T_07_Parameter" />
+		</classes>
+	</test>
+
+</suite>

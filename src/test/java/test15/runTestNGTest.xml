@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Listener">
+
+	<listeners>
+		<listener class-name="test15.MyListener" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="test15.OrangeHRM" />
+		</classes>
+	</test>
+</suite>
