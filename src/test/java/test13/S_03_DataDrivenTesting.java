@@ -1,7 +1,6 @@
 package test13;
 
 import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -12,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class S_03_DataDrivenTesting {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
